@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img-duc/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="rectangle-login" >
+        <div class="layer-1">
+            <form id="loginForm" class="login-form-hidden">
+                <b>WELCOME BACK</b>
+                Welcome back! Please enter your details.<br>
+                <div class="information-1">
+                    Email
+                    <br><br>
+                    <input type="email" placeholder="Enter your email" id="email">
+                    Password
+                    <br><br>
+                    <input type="password" placeholder="************" id="password">
+                </div>
+                <div id="loginError" class="Error"></div>
+                <div class="save-1">
+                    <input type="checkbox">Remember Me<a href="#">Forgot password</a>
+                </div>
+                <button class="send-1" id="send-1">Sign in</button>
+                <div class="other-1"> <span>Don’t have an account?</span>
+                    <p id="signup-link">Sign up to free</p>
+                    
+                </div>
+            </form>
+            <form id="registerForm" class="register-form-hidden">
+                <b>WELCOME GUYS</b>
+                Welcome guys! Please enter your details.
+                <div class="information-2">
+                    User name
+                    <br>
+                    <input type="text" placeholder="Enter your username" id="username">
+                    Email
+                    <br>
+                    <input type="email" placeholder="Enter your email" id="email1">
+                    Password
+                    <br>
+                    <input type="password" placeholder="********" id="password1">
+                    Enter the password
+                    <br>
+                    <input type="password" placeholder="********" id="repassword">
+                </div>
+                <button class="send-2" id="send-2">Sign Up</button>
+                <div class="other-2">
+                    <span>Do you already have an account?</span>
+                    <p id="login-link">Login!</p>
+                </div>
+            </form>
+        </div>
+        <div class="layer-2">
+            <img src="../img-duc/Background-login.png" alt="Background T-Shirt">
+        </div>
+    </div>
+    <script src="../js/login.js"></script>
+</body>
+
+</html>
