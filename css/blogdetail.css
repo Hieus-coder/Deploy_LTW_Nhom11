@@ -90,22 +90,6 @@ header {
 
             }
         }
-
-        .box_logo {
-            position: relative;
-            z-index: -1;
-            height: 60px;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            .logo {
-                width: 140px;
-                height: 48px;
-            }
-        }
-
         .icon {
             position: absolute;
             height: 60px;
